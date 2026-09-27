@@ -1,4 +1,5 @@
-# RoStub
+# Walke RoStub, a new way to test Roblox scripts offline
+All Thanks to The Skin Walke Team <3
 
 Run and test your Roblox/executor Lua on your PC. No Roblox, no injecting.
 
@@ -96,6 +97,4 @@ RoStub.Enum.ProximityPromptStyle = { Default = { Name = "Default", Value = 0, En
 
 ## Notes
 
-It mocks the API and object model, not the engine — no rendering, physics or real networking. FireServer/FireAllClients just fire the same signal locally so you can test both sides in one process. Defaults are approximate. Built for testing logic; extend the tables when a script needs something that isn't there.
-
-MIT.
+It mocks the API and object model, not the engine no rendering, physics or real networking. FireServer/FireAllClients just fire the same signal locally so you can test both sides in one process. Defaults are approximate. Built for testing logic; extend the tables when a script needs something that isn't there.
