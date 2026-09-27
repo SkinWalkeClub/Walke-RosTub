@@ -1,9 +1,13 @@
-# Walke RoStub, a new way to test Roblox scripts offline
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/1490759185129017486/1553581565689208864/walkerostub.png?ex=6ab9c515&is=6ab87395&hm=8556a0dd709a056bcbf167d1159a66fe2343d12390735a7e06dbcf1a77c7f60f&=&format=webp&quality=lossless&width=640&height=640" alt="Walke Serializer">
+</p>
+
+# Walke RoStub, A new way to Test Roblox scripts OFFLINE
 All Thanks to The Skin Walke Team <3
 
-Run and test your Roblox/executor Lua on your PC. No Roblox, no injecting.
+Run and test your Roblox/executor Lua on your PC terminal, no need to test it on roblox or have to inject annoying executors.
 
-It fakes the stuff your scripts touch — `Instance`, `game`, `workspace`, `typeof`, the datatypes, `task`, signals, and the usual executor globals — so you can run a script in a normal `lua`/`luau` terminal and actually unit test its logic instead of injecting every time you change a line.
+It fakes the stuff your scripts touch  `Instance`, `game`, `workspace`, `typeof`, the datatypes, `task`, signals, and the usual executor globals so you can run a script in a normal `lua`/`luau` terminal and actually unit test its logic instead of injecting every time you change a line.
 
 ## Setup
 
@@ -55,7 +59,7 @@ RoStub is plain Lua so it loads anywhere. Pick whatever matches your script:
 - `luau examples/example.spec.lua` if it uses Luau syntax (`+=`, `continue`, backtick strings, types)
 - `lune run examples/example.spec.lua` if you want a full Luau stdlib
 
-Luau-only syntax won't parse under plain `lua`, so use `luau`/`lune` for real scripts.
+Luau only syntax won't parse under plain `lua`, so use `luau`/`lune` for real scripts.
 
 ## What's covered
 
