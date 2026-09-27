@@ -2,7 +2,7 @@
   <img src="https://media.discordapp.net/attachments/1490759185129017486/1553581565689208864/walkerostub.png?ex=6ab9c515&is=6ab87395&hm=8556a0dd709a056bcbf167d1159a66fe2343d12390735a7e06dbcf1a77c7f60f&=&format=webp&quality=lossless&width=640&height=640" alt="Walke Serializer">
 </p>
 
-# Walke RoStub, A new way to Test Roblox scripts OFFLINE
+# Walke RosTub, A new way to Test Roblox scripts OFFLINE
 All Thanks to The Skin Walke Team <3
 
 Run and test your Roblox/executor Lua on your PC terminal, no need to test it on roblox or have to inject annoying executors.
